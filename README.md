@@ -50,6 +50,7 @@ conclusions section.
 * Target end-effector position: `(−0.500, 0.100, 0.200)` m.
 * IK convergence: 14 iterations, residual position error ≈ 3.8·10⁻⁹ m.
 * Trajectory peak magnitudes (5-second move, N = 100 samples):
+
   | Method | max ǀq̇ǀ, rad/s | max ǀq̈ǀ, rad/s² |
   | --- | --- | --- |
   | jtraj (quintic) | 1.570 | 0.967 |
@@ -58,13 +59,9 @@ conclusions section.
 
 ## Files
 
-* [lab2.ipynb](lab2.ipynb) — completed lab notebook with code, plots and
-  conclusions.
-* [lab2-template.ipynb](lab2-template.ipynb) — original template provided
-  with the assignment.
+* [lab2.ipynb](lab2.ipynb) — completed lab notebook (in English) with
+  code, plots and conclusions.
 * [assignment-lab2](assignment-lab2) — assignment brief.
-* `build_notebook.py` — helper script that programmatically rebuilds
-  `lab2.ipynb` from source if needed.
 
 ## Reproducing the results
 
@@ -92,5 +89,5 @@ All three planners drive the manipulator from `q_start` to `q_end` over
   constraint, and quintic profiles are preferred for precision tasks
   where smoothness matters more than peak velocity.
 
-The detailed discussion is in the *Выводы* section at the end of
+The detailed discussion is in the *Conclusions* section at the end of
 [lab2.ipynb](lab2.ipynb).
